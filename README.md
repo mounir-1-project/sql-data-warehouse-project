@@ -64,25 +64,20 @@ This project uses the **medallion architecture** (Bronze, Silver, Gold):
 
 ## 📂 Repository Structure
 sql-data-warehouse-project/
-│
-├── docs/ # Documentation & diagrams
+├── docs/
 │ ├── data_model.md
 │ └── etl_pipeline.md
-│
 ├── scripts/
-│ ├── 01_bronze/ # Table creation & data loading (Bronze layer)
-│ ├── 02_silver/ # Cleaning & transformation (Silver layer)
-│ ├── 03_gold/ # Dimensional model (Gold layer)
-│ └── 04_analytics/ # Business analytics queries
-│
-├── data/ # Sample CSV files (ERP & CRM)
+│ ├── 01_bronze/
+│ ├── 02_silver/
+│ ├── 03_gold/
+│ └── 04_analytics/
+├── data/
 │ ├── erp_customers.csv
 │ ├── erp_products.csv
-│ ├── crm_sales.csv
-│ └── ...
-│
-├── config/ # Configuration scripts
-├── tests/ # Data quality test scripts
+│ └── crm_sales.csv
+├── config/
+├── tests/
 ├── .gitignore
 ├── README.md
 └── LICENSE
